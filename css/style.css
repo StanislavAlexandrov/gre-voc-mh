@@ -1,0 +1,15 @@
+#roll {
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    text-align: -webkit-center;
+}
+#result {
+    font-size: 30px;
+    color: black;
+    display: block;
+    text-align: -webkit-center;
+}
+.no-display-definition {
+    display: none;
+}
