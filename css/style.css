@@ -1,14 +1,51 @@
-#roll {
+.wrapper {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.rollButton {
     font-size: 40px;
     margin: auto;
     display: block;
     text-align: -webkit-center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    color: white;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
-#result {
+
+.rollButton:hover {
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.showDefButton {
+    margin: auto;
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    color: white;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.result {
     font-size: 30px;
     color: black;
-    display: block;
-    text-align: -webkit-center;
+
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.definition {
+    margin: auto;
+    margin-top: 0.5rem;
+    font-size: 20px;
 }
 .no-display-definition {
     display: none;
